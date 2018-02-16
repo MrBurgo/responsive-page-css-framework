@@ -20,6 +20,16 @@
   justify-content: center;
 }
 
+.navbar-link{
+  color:#CCCCCC;
+  text-decoration:none;
+}
+
+.navbar-link:hover{
+  text-decoration:underline;
+  color:#CCCCCC;
+}
+
 .nav-item{
   color:#CCCCCC;
   font-size:14px;
@@ -37,4 +47,91 @@
 .foundation::after{
   content: '' !important;
   padding-right: 0px !important;
+}
+
+.main-container{
+  padding-top:2%;
+}
+
+.main-body{
+  text-align:center;
+  max-width:775px;
+  display:block;
+  margin:auto;
+}
+
+.body-paragraph{
+  font-size:20px;
+  font-family:'Source Sans Pro', sans-serif;
+  margin-bottom:40px;
+}
+
+.body-banner{
+  background-color:#EBF5EA;
+  border-radius:2px;
+  padding-top:3px;
+  padding-bottom:0px;
+  margin-bottom:5%;
+}
+
+.banner-paragraph{
+  color:#026e00;
+  font-size:26px;
+  padding-bottom:4px;
+}
+
+.banner-link{
+  text-decoration:none;
+  color:#026e00;
+}
+
+.banner-link:hover{
+  text-decoration:none;
+  background-color:#026e00;
+  color:#ffffff;
+  border-radius:2px;
+  padding-left: 2px;
+  padding-right:2px;
+}
+
+.download-title{
+  font-size:28px;
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight:400;
+}
+
+.buttons{
+  justify-content:center;
+}
+
+.green-button1{
+  background-color:#026e00;
+  color:#ffffff;
+  width:200px;
+  font-size: 30px;
+  text-decoration:none;
+  margin:10px;
+}
+
+.green-button2{
+  background-color:#026e00;
+  color:#ffffff;
+  width:200px;
+  font-size: 30px;
+  text-decoration:none;
+  margin:10px;
+}
+
+.button-link{
+  color:white;
+  text-decoration:none;
+  padding: 10px 0px;
+}
+
+.button-link:hover{
+  background-color:#43853d;
+}
+
+.subtext{
+  font-size:16px;
 }
